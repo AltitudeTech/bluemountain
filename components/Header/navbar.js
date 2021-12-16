@@ -15,7 +15,7 @@ export const Nav = (props) => {
       style={{
         opacity,
         borderBottomWidth,
-        backgroundColor: "#0069D1",
+        backgroundColor: "#031928",
         zIndex: 999999999999999,
       }}
     >

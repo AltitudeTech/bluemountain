@@ -57,8 +57,8 @@ const SiteLinks = [
   { label: "HOME", url: "/" },
   { label: "ABOUT", url: "/about" },
   { label: "SOLUTIONS", url: "/solutions" },
-  { label: "FUNCTIONS", url: "/functions" },
+  // { label: "FUNCTIONS", url: "/functions" },
   { label: "PARTNERS", url: "/partners" },
-  { label: "FEATURED VACANCIES", url: "/featured-vacancies" },
+  // { label: "FEATURED VACANCIES", url: "/featured-vacancies" },
   { label: "CONTACT US", url: "/contact" },
 ];

@@ -12,7 +12,7 @@ export default class Footer extends Component {
           <footer>
             <Container fluid className="m-0">
               <Row>
-                <Col md={2} xs={12}>
+                <Col md={3} xs={12}>
                   <p style={{ fontSize: "16px", fontWeight: "bold" }}>
                     Quick Links
                   </p>
@@ -32,14 +32,14 @@ export default class Footer extends Component {
                         <a>Solutions</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/functions">
                         <a>Functions</a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </Col>
-                <Col md={2} xs={12}>
+                <Col md={3} xs={12}>
                   <p style={{ fontSize: "16px", fontWeight: "bold" }}>
                     Navigation Links
                   </p>
@@ -49,14 +49,14 @@ export default class Footer extends Component {
                         <a>Partners</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/featured-vacancies">
                         <a>Featured Vacancies</a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </Col>
-                <Col md={2} xs={12}>
+                <Col md={3} xs={12}>
                   <p style={{ fontSize: "16px", fontWeight: "bold" }}>
                     Follow Us{" "}
                   </p>
@@ -69,7 +69,7 @@ export default class Footer extends Component {
                       <img src="/static/social/twitter.png" />
                     </div>
                   </div>
-                  <div style={{ display: "block", marginTop: "20px" }}>
+                  {/* <div style={{ display: "block", marginTop: "20px" }}>
                     <Link href="/newsletter" prefetch>
                       <a
                         style={{
@@ -87,9 +87,9 @@ export default class Footer extends Component {
                         Sign Up To Our Newsletter
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </Col>
-                <Col md={3} xs={12} className="bmcn mt-3">
+                {/* <Col md={3} xs={12} className="bmcn mt-3">
                   <Link href="/consulting-network">
                     <a>
                       <SvgLoader
@@ -98,8 +98,8 @@ export default class Footer extends Component {
                       />
                     </a>
                   </Link>
-                </Col>
-                <Col md={2} xs={12} className="bmcn">
+                </Col> */}
+                <Col md={3} xs={12} className="bmcn">
                   <div className="mb-5">
                     {!this.props.university && (
                       <Link href="//coach4success.info">
