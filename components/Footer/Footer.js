@@ -102,8 +102,8 @@ export default class Footer extends Component {
                 <Col md={2} xs={12} className="bmcn">
                   <div className="mb-5">
                     {!this.props.university && (
-                      <Link href="/university">
-                        <a>
+                      <Link href="//coach4success.info">
+                        <a target="_blank">
                           <img
                             className="img-fluid"
                             src="/static/images/footer/coach4success.png"

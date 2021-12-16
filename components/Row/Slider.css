@@ -3,10 +3,6 @@
   margin: auto;
 }
 
-h3 {
-  text-align: center;
-}
-
 .each-slide > div {
   display: flex;
   align-items: center;
