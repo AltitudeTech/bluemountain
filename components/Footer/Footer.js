@@ -13,7 +13,9 @@ export default class Footer extends Component {
             <Container fluid className="m-0">
               <Row>
                 <Col md={2} xs={12}>
-                  <p style={{ fontSize: "14px" }}>Quick Links</p>
+                  <p style={{ fontSize: "16px", fontWeight: "bold" }}>
+                    Quick Links
+                  </p>
                   <ul>
                     <li>
                       <Link href="/">
@@ -35,34 +37,16 @@ export default class Footer extends Component {
                         <a>Functions</a>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/sectors">
-                        <a>Sectors</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/bmtn">
-                        <a>Blue Mountain TV Network</a>
-                      </Link>
-                    </li>
                   </ul>
                 </Col>
                 <Col md={2} xs={12}>
-                  <p style={{ fontSize: "14px" }}>Navigation Links</p>
+                  <p style={{ fontSize: "16px", fontWeight: "bold" }}>
+                    Navigation Links
+                  </p>
                   <ul>
                     <li>
                       <Link href="/partners">
-                        <a>Partner</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/insights">
-                        <a>Insight</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/organisational-consulting">
-                        <a>Organisational Consulting</a>
+                        <a>Partners</a>
                       </Link>
                     </li>
                     <li>
@@ -73,12 +57,14 @@ export default class Footer extends Component {
                   </ul>
                 </Col>
                 <Col md={2} xs={12}>
-                  <p style={{ fontSize: "14px" }}>Follow Us </p>
+                  <p style={{ fontSize: "16px", fontWeight: "bold" }}>
+                    Follow Us{" "}
+                  </p>
                   <div className="socials">
                     <div className="linkedIn">
                       <img src="/static/social/linkedin.png" />
                     </div>
-                    <div className="youtube">Y</div>
+                    {/* <div className="youtube">Y</div> */}
                     <div className="twitter">
                       <img src="/static/social/twitter.png" />
                     </div>
@@ -120,7 +106,7 @@ export default class Footer extends Component {
                         <a>
                           <img
                             className="img-fluid"
-                            src="/static/images/footer/bmu.png"
+                            src="/static/images/footer/coach4success.png"
                           />
                         </a>
                       </Link>

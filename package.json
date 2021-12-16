@@ -39,6 +39,7 @@
     "react-accordion-with-header": "^0.1.2",
     "react-apollo": "^2.1.11",
     "react-awesome-slider": "^1.0.1",
+    "react-burger-menu": "^3.0.6",
     "react-calendar": "^2.19.0",
     "react-cookie-consent": "^6.1.0",
     "react-dom": "^16.8.6",

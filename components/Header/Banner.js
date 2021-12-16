@@ -3,6 +3,7 @@ import { Jumbotron } from "reactstrap";
 import Link from "next/link";
 import Nav from "./Nav";
 import Title from "../About/Title";
+import MyNavbar from "./navbar";
 
 const Banner = (props) => {
   const banner = props.bgImage || "headerbg";
@@ -30,7 +31,7 @@ const Banner = (props) => {
           margin: "0px",
         }}
       >
-        <Nav />
+        <MyNavbar />
         <div>
           <h2
             className="display-4"
