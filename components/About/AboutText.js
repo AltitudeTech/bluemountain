@@ -11,8 +11,8 @@ export default (props) => {
           <h3 className="my-5">{props.title}</h3>
           <div>
             <Row>
-              <Col md={6}>
-                <div style={{ width: "90%" }}>
+              <Col md={12}>
+                <div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Incidunt illo amet similique repudiandae, dolorem maxime
@@ -25,38 +25,8 @@ export default (props) => {
                   </p>
                 </div>
               </Col>
-              <Col md={6}>
-                <div style={{ width: "90%" }}>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt illo amet similique repudiandae, dolorem maxime
-                    reiciendis aspernatur nesciunt mollitia corrupti ab, fugiat
-                    illum est cumque, non placeat tenetur distinctio doloribus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt illo amet similique repudiandae, dolorem maxime
-                    reiciendis aspernatur nesciunt mollitia corrupti ab, fugiat
-                    illum est cumque, non placeat tenetur distinctio doloribus!
-                  </p>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={6}>
-                <div style={{ width: "90%" }}>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt illo amet similique repudiandae, dolorem maxime
-                    reiciendis aspernatur nesciunt mollitia corrupti ab, fugiat
-                    illum est cumque, non placeat tenetur distinctio doloribus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt illo amet similique repudiandae, dolorem maxime
-                    reiciendis aspernatur nesciunt mollitia corrupti ab, fugiat
-                    illum est cumque, non placeat tenetur distinctio doloribus!
-                  </p>
-                </div>
-              </Col>
-              <Col md={6}>
-                <div style={{ width: "90%" }}>
+              <Col md={12}>
+                <div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Incidunt illo amet similique repudiandae, dolorem maxime
@@ -73,28 +43,20 @@ export default (props) => {
           </div>
         </div>
       </Container>
-      {/* <Container>
+
+      <Container>
         <Row>
-          <Col md={6}>
-            <AboutItem title="Vision" />
+          <Col md={12} className="mb-5">
+            <AboutItem title="VISION AND MISSION" />
           </Col>
-          <Col md={6}>
-            <AboutItem title="Mission" />
+          <Col md={12} className="mb-5">
+            <AboutItem title="STRATEGY" />
           </Col>
-          <Col md={6}>
-            <AboutItem title="Structure" />
-          </Col>
-          <Col md={6}>
-            <AboutItem title="Join Us" />
-          </Col>
-          <Col md={6}>
-            <AboutItem title="Partners" />
-          </Col>
-          <Col md={6}>
-            <AboutItem title="Blue Mountain TV" tv />
+          <Col md={12} className="mb-5">
+            <AboutItem title="PARTNER" />
           </Col>
         </Row>
-      </Container> */}
+      </Container>
       <style jsx>
         {`
           .aboutTitle {
