@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import Head from "next/head";
 import Banner from "../components/Header/Banner";
-import ServiceRow from "../components/Row/ServiceRow";
 import TopExecutive from "../components/Row/TopExecutive";
-import Global from "../components/Global/Global";
 import Layout from "../components/Layout";
-import EventTop from "../components/Event/EventTop";
 import { Solutions } from "../components/Row/Solutions";
 
 export default class extends Component {
@@ -23,10 +20,7 @@ export default class extends Component {
           subtitle="More about Blue Mountain >"
         />
         <TopExecutive />
-        {/* <ServiceRow /> */}
         <Solutions />
-        {/* <EventTop /> */}
-        {/* <Global title="GLOBAL INSIGHT" /> */}
       </Layout>
     );
   }

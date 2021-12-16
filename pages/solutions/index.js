@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import ServiceRow from "../../components/Row/ServiceRow";
 import { Col, Container, Row } from "reactstrap";
 import Global from "../../components/Global/Global";
+import { Solutions } from "../../components/Row/Solutions";
 
 export default class extends Component {
   state = {};
@@ -14,7 +15,7 @@ export default class extends Component {
         <Container>
           <Row className="mb-5">
             <Col md={12} className="mt-5">
-              <h2>Leadership Solutions</h2>
+              <h2>SOLUTIONS</h2>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -31,8 +32,8 @@ export default class extends Component {
             </Col>
           </Row>
         </Container>
-        <ServiceRow title="" />
-        <Global title="GLOBAL INSIGHT" />
+        {/* <ServiceRow title="" /> */}
+        <Solutions />
       </Layout>
     );
   }
