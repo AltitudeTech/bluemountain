@@ -30,7 +30,7 @@
     "babel-plugin-inline-dotenv": "^1.1.2",
     "babel-plugin-inline-react-svg": "^0.5.4",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
-    "bootstrap": "4.1.1",
+    "bootstrap": "4.3.1",
     "bv-react-svgloader": "^1.1.0",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.9.2",
